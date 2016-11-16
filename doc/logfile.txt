@@ -1,0 +1,94 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.7.0\bin\javadoc.exe
+-sourcepath
+E:\PitcaKuchnia
+-classpath
+C:\BlueJ\lib\bluejcore.jar;C:\BlueJ\lib\junit-4.8.2.jar;E:\PitcaKuchnia
+-d
+E:\PitcaKuchnia\doc
+-source
+1.7
+-doctitle
+PitcaKuchnia
+-windowtitle
+PitcaKuchnia
+-encoding
+UTF-8
+-charset
+UTF-8
+-link
+http://download.oracle.com/javase/6/docs/api/
+-author
+-version
+-nodeprecated
+-package
+E:\PitcaKuchnia/GetArticleServlet.java
+E:\PitcaKuchnia/Sql.java
+E:\PitcaKuchnia/ArticleDAO.java
+E:\PitcaKuchnia/haloBaza.java
+<---- end of javadoc command ---->
+Loading source file E:\PitcaKuchnia/GetArticleServlet.java...
+Loading source file E:\PitcaKuchnia/Sql.java...
+Loading source file E:\PitcaKuchnia/ArticleDAO.java...
+Loading source file E:\PitcaKuchnia/haloBaza.java...
+Constructing Javadoc information...
+E:\PitcaKuchnia\GetArticleServlet.java:2: error: cannot find symbol
+public class GetArticleServlet extends HttpServlet {
+                                       ^
+  symbol: class HttpServlet
+E:\PitcaKuchnia\GetArticleServlet.java:11: error: cannot find symbol
+    private ArticleParser articleParser;
+            ^
+  symbol:   class ArticleParser
+  location: class GetArticleServlet
+E:\PitcaKuchnia\GetArticleServlet.java:28: error: cannot find symbol
+    public void doPost(HttpServletRequest request,
+                       ^
+  symbol:   class HttpServletRequest
+  location: class GetArticleServlet
+E:\PitcaKuchnia\GetArticleServlet.java:29: error: cannot find symbol
+            HttpServletResponse response)   throws ServletException, IOException {
+            ^
+  symbol:   class HttpServletResponse
+  location: class GetArticleServlet
+E:\PitcaKuchnia\GetArticleServlet.java:29: error: cannot find symbol
+            HttpServletResponse response)   throws ServletException, IOException {
+                                                   ^
+  symbol:   class ServletException
+  location: class GetArticleServlet
+E:\PitcaKuchnia\GetArticleServlet.java:29: error: cannot find symbol
+            HttpServletResponse response)   throws ServletException, IOException {
+                                                                     ^
+  symbol:   class IOException
+  location: class GetArticleServlet
+E:\PitcaKuchnia\ArticleDAO.java:24: error: cannot find symbol
+    private SQLArticleParser sqlArticleParser;
+            ^
+  symbol:   class SQLArticleParser
+  location: class ArticleDAO
+E:\PitcaKuchnia\ArticleDAO.java:31: error: cannot find symbol
+    public void save(Article article) {
+                     ^
+  symbol:   class Article
+  location: class ArticleDAO
+Standard Doclet version 1.7.0
+Building tree for all the packages and classes...
+Generating E:\PitcaKuchnia\doc\ArticleDAO.html...
+Generating E:\PitcaKuchnia\doc\GetArticleServlet.html...
+Generating E:\PitcaKuchnia\doc\haloBaza.html...
+Generating E:\PitcaKuchnia\doc\Sql.html...
+Generating E:\PitcaKuchnia\doc\package-frame.html...
+Generating E:\PitcaKuchnia\doc\package-summary.html...
+Generating E:\PitcaKuchnia\doc\package-tree.html...
+Generating E:\PitcaKuchnia\doc\constant-values.html...
+Generating E:\PitcaKuchnia\doc\serialized-form.html...
+Building index for all the packages and classes...
+Generating E:\PitcaKuchnia\doc\overview-tree.html...
+Generating E:\PitcaKuchnia\doc\index-all.html...
+Building index for all classes...
+Generating E:\PitcaKuchnia\doc\allclasses-frame.html...
+Generating E:\PitcaKuchnia\doc\allclasses-noframe.html...
+Generating E:\PitcaKuchnia\doc\index.html...
+Generating E:\PitcaKuchnia\doc\help-doc.html...
+8 warnings
