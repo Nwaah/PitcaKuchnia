@@ -9,4 +9,13 @@ public class Zamowienie
         id = idz;
         pitca = pi;
     }
+    
+    public String toString(){
+        String res =  "Zam" +id+ ": ";
+        for(int i = 0; i<pitca.length; i++){
+            res += pitca[i].toString();
+            res += "\n";
+        }
+        return res;
+    }
 }

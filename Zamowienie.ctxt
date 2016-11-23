@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=idz\ pi
 comment0.target=Zamowienie(int,\ Pizza[])
-numComments=1
+comment1.params=
+comment1.target=java.lang.String\ toString()
+numComments=2
